@@ -96,42 +96,4 @@ public class ChessCalculator {
       return willWeMakeIt;
       }
       
-   /*public double howManyPointsToCatchUp (double time) {
-   how many pts needed to catch up to an alliance 
-   based on how much time you have left & where you're at 
-      double curScore;
-      double goalScore;
-      int pointsGained;
-      int enemyPointsGained;
-      Scanner scnr = new Scanner(System.in);
-      
-      System.out.println("What is your current score? ");
-      curScore = scnr.nextDouble();
-      curScore *= 1000;
-      
-      System.out.println("What is your goal score? ");
-      goalScore = scnr.nextDouble();
-      goalScore *= 1000;
-      
-      System.out.println("How many points are being gained (per 15 mins)? ");
-      pointsGained = scnr.nextInt();
-      pointsGained *= 4;
-      
-      System.out.println("How many points is the other alliance gaining (per 15 mins)? ");
-      enemyPointsGained = scnr.nextInt();
-      enemyPointsGained *= 4;
-      
-      
-   }
-   
-   //public double whenWillWeMakeIt () {
-   /* when will we make it to a cerrain # of pts 
-   returns time 
-   }
-  */
 }
-
-         
-  
-         
-      
